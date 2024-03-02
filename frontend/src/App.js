@@ -22,7 +22,8 @@ function App() {
   useEffect(() => {
     
     axios.defaults.withCredentials = true;
-    axios.get('http://localhost:8090/')
+    axios.get('mern-project-api-chi.vercel.app
+/')
     .then(user => {
       console.log(user)
       setUser(user.data)
