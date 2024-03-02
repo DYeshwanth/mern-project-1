@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.t-card {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.card-body .desc{
+    font-size: 14px;
+}
+.card-text{
+    font-size: 20px;
+}
+.t-card .card{
+  position: relative;
+  background: rgba(0, 200, 255, 0.778);
+  border: none;
+}
+.t-card .card:hover{
+    cursor: pointer;
+}
+.t-card .card .rating {
+  background: rgba(255, 85, 0, 0.695);
+  padding: 2px 12px;
+  border-radius: 6px;
+  position: absolute;
+  font-size: 14px;
+  top: 0px;
+  margin: 0.5rem;
+  color: rgb(255, 255, 255);
+  cursor: default;
+}
+.t-card .card .wishlist {
+  position: absolute;
+  padding: 10px 10px 5px 10px;
+  bottom: 0.7rem;
+  right: 1rem;
+  background: rgb(255, 238, 0);
+  border-radius: 50%;
+  font-size: 15px;
+  transition: .3s;
+}
+.t-card .card .wishlist:hover{
+    background: rgba(255, 238, 0, 0.788);
+    color: red;
+    cursor: pointer;
+    transition: .3s;
+}
+.dropdownItems{
+  display: flex;
+  gap: 30px;
+  margin-left: 40%;
+}

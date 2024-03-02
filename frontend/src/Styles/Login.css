@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.User-login {
+  margin: 0;
+  padding: 0;
+  /* background: rgb(66, 104, 126); */
+  /* background: rgb(138, 91, 55); */
+  background: url(https://i.postimg.cc/26dFY67K/blur.jpg);
+  background-size:cover;
+  /* filter: blur(8px); */
+  
+  display: flex;
+  height: 100vh;
+}
+.User-login .card {
+  box-sizing: border-box;
+  /* background: rgb(229, 203, 203, 0.35); */
+  background: rgba(253, 135, 56, 0.832);
+  border: 1px solid rgba(0, 0, 0, 0.477);
+  border-radius: 10px;
+  padding: 10px 50px;
+  list-style-type: none;
+  max-width: max-content;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.User-login .card h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.User-login .card td {
+  display: flex;
+  font-size: 16px;
+}
+.User-login .card input {
+  width: 300px;
+  height: 35px;
+  padding: 0 5px;
+  font-size: 14px;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+
+.User-login .card button {
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: none;
+  /* background: rgb(79, 203, 231); */
+  background: rgb(231, 163, 79);
+  font-size: 15px;
+  color: white;
+  font-family: "poppins", serif;
+  margin-top: 8px;
+  transition: 0.3s;
+}
+
+.User-login .card input:focus{
+    background: rgb(255, 162, 0);
+    color: white;
+}
+
+.User-login .card button:hover{
+    cursor: pointer;
+    background: rgb(234, 133, 51);
+    transition: 0.3s;
+}
+
+.link{
+    color: antiquewhite;
+    transition: 0.3s;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: rgb(255, 200, 0);
+    transition: 0.3s;
+}
